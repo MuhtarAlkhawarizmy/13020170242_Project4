@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".about"
     android:orientation="vertical">
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -15,27 +13,52 @@
         android:background="?attr/colorPrimary"
         app:titleTextColor="@color/colorWhite"
         style="@style/Theme.AppCompat.Light.DarkActionBar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/roundedImageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/img_profil" />
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:layout_width="160dp"
-        android:layout_height="160dp"
-        android:src="@drawable/img_profil"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"/>
-    <TextView
-        android:layout_marginTop="10dp"
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:paddingTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textAlignment="center"
+                android:text="Muhtar \n13020170242 \nC1 Mobile Programming"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TV Show APP"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="@color/colorPrimary"
-        android:gravity="center"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Ini adalah aplikasi yang menampilkan List-list film pada TV Show"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="10dp"/>
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="bottom|center">
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Praktikum \nMobile Programming \n2020"/>
+    </LinearLayout>
 </LinearLayout>
