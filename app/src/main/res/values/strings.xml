@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">TV Show</string>
+    <string-array name="nama">
+        <item>Captain America : The First Avengers</item>
+        <item>Iron Man</item>
+        <item>Thor : The Dark World</item>
+        <item>Iron Man 2</item>
+        <item>Avengers Age Of Ultron</item>
+        <item>Captain America : The Winter Solider</item>
+        <item>Black Window</item>
+        <item>Iron Man 3</item>
+        <item>Thor : Love And Thunder</item>
+        <item>Captain America : Civil War</item>
+        <item>Spider Man : Home Coming</item>
+        <item>Guardian Of Galaxy</item>
+        <item>Thor : Ragnarok</item>
+        <item>Avengers Invity War</item>
+        <item>Captain Marvel</item>
+        <item>Avengers End Game</item>
+        <item>Spider Man : Far fRom Home</item>
+        <item>Incredible HULK</item>
+        <item>Incredible HULK 2</item>
+        <item>The Flash</item>
+        <item>Sonic</item>
+    </string-array>
+
+    <array name="foto">
+        <item>@drawable/img1_thefirstavenger</item>
+        <item>@drawable/img2_ironman</item>
+        <item>@drawable/img3_thordarkworld</item>
+        <item>@drawable/img4_ironman2</item>
+        <item>@drawable/img5_ageofultron</item>
+        <item>@drawable/img6_thewintersoldier</item>
+        <item>@drawable/img7_blackwindow</item>
+        <item>@drawable/img8_ironman3</item>
+        <item>@drawable/img9_loveandthunder</item>
+        <item>@drawable/img10_civilwar</item>
+        <item>@drawable/img11_homecoming</item>
+        <item>@drawable/img12_guardiansofthegalaxy</item>
+        <item>@drawable/img13_thorragnarok</item>
+        <item>@drawable/img14_infinitywar</item>
+        <item>@drawable/img15_marvel</item>
+        <item>@drawable/img16_endgame</item>
+        <item>@drawable/img17_farfromhome</item>
+        <item>@drawable/img18_hulk1</item>
+        <item>@drawable/img19_hulk2</item>
+        <item>@drawable/img20_flash</item>
+        <item>@drawable/img21_sonic</item>
+    </array>
+
+    <string-array name="desc">
+         <item>Film ini berlatar tahun 1942, saat Perang Dunia II masih berkecamuk, ketika Amerika berhadapan dengan Nazi.
+            Terdorong oleh keinginan untuk mengabdi, para pemuda Amerika mendaftar untuk menjadi tentara, termasuk Steve Rogers (Chris Evans), pria kurus dan pendek.
+            Baca selengkapnya di artikel "Sinopsis Captain America: The First Avengers yang Tayang Global TV", https://tirto.id/dihS</item>
+        <item>Iron Man mengisahkan tentang Tony Stark sebagai Iron Man.
+            Kisah diawali dengan mendeskripsikan Tony Stark sebagai seorang milyuner karena perusahaan Stark Industries yang ia miliki.
+            Artikel ini telah tayang di Tribunstyle.com dengan judul Sinopsis Film Iron Man - Awal Mula Tony Stark Bisa Jadi Superhero, Malam Ini di Cinemax,
+            https://style.tribunnews.com/2016/12/25/sinopsis-film-iron-man-awal-mula-tony-stark-bisa-jadi-superhero-malam-ini-di-cinemax.
+            Penulis: Regi Yanuar Widhia Dinnata Editor: Delta Lidina Putri</item>
+        <item>Thor: The Dark World adalah sebuah film pahlawan super Amerika 2013 yang menampilkan karakter Marvel Comics Thor,
+            yang diproduksi oleh Marvel Studios dan didistribusikan oleh Walt Disney Studios Motion Pictures.
+            Film tersebut adalah sekuel dari Thor pada 2011 dan film kedelapan pada Marvel Cinematic Universe</item>
+        <item>Manusia besi alias Iron Man, kembali ke layar lebar. Iron Man 2 adalah bagian kedua dari trilogi Iron Man,
+            yang dibuat berdasarkan karakter komik Amerika populer, dan digarap oleh sutradara Jon Favreau.
+            Pada film Iron Man yang pertama, penonton telah berkenalan dengan pengusaha senjata Tony Stark, yang dengan kekayaan dan kepintarannya,
+            berhasil membuat pakaian yang terbuat dari besi yang tidak dapat dihancurkan.
+            Tony kemudian menggunakan teknologi canggih ini untuk menciptakan perdamaian di seluruh dunia.</item>
+        <item>Film ini adalah sekuel The Avengers dan crossover antara Iron Man 3 , Thor: The Dark World, dan Captain America: The Winter Soldier,
+            Film ini diawali dengan kekhawatiran para Avengers, Tony Stark, Steve Rogers, Thor, Bruce Banner, Natasha Romanoff
+            dan Clint Barton terhadap fasilitas ciptaan Hydra.</item>
+        <item>Steve Rogers berusaha untuk menempatkan dirinya di tengah dunia modern, setelah dibekukan sejak masa Perang Dunia II. Saat terbangun,
+            kekacauan dan musuh berbahaya telah menantinya - Winter Soldier.</item>
+        <item>Film ini berlatar kejadian setelah Captain America: Civil War dan menggambarkan Natasha yang bergulat dengan masa lalu.
+            Artikel ini telah tayang di tribunbatam.id dengan judul Sinopsis dan Trailler Film Black Widow Tayang Mei 2020,
+            Awal Pertemuan Natasha dan Yelena.Teaser trailer berdurasi 2:08 itu memperlihatkan kisah lain yang tak pernah diketahui dan tidak terungkap dari sosok Natasha.
+        </item>
+        <item>Industrialis brilian Tony Stark / Iron Man menghadapi musuh yang tak kenal batas. Dunia Tony dihancurkan dan ia menyelidiki siapa yang bertanggung jawab untuk
+            kerusakan tersebut. Berbekal peralatan dan instingnya, Tony berusaha menyelamatkan orang-orang yang dikasihinya. Pertanyaan lama kembali menghantuinya;
+            apakah manusia yang membuat baju Iron Man atau baju tersebut yang menentukan identitasnya sebagai manusia?</item>
+        <item>THOR 4 atau yang dikenal dengan Thor: Love and Thunder mungkin jadi salah satu film yang paling ditunggu-tunggu. Mengapa? Tentu karena Thor jadi
+            superhero Marvel pertama yang filmnya sampai dibuat empat kali! Mengalahkan Iron Man dan Captain America yang hanya dibuatkan sampai tiga film.
+            Wajar saja film yang satu ini akan jadi film Marvel layak dinantikan.</item>
+        <item>Captain America : Civil War, film tentang perseteruan sesama Avengers pimpinan Captain America dan Iron Man
+            Sejak kejadian tersebut, ada wacana bahwa pemerintah akan ikut campur dalam kehidupan Avengers.
+            para Avengers harus mengungkapkan identitasnya kepada pemerintah. Hal itu membuat kebebasan Avengers menjadi hilang.</item>
+        <item>Spider-Man: Homecoming adalah film superhero Amerika 2017 berdasarkan karakter Marvel Comics Spider-Man, diproduksi bersama oleh Columbia Pictures dan Marvel Studios,
+            dan didistribusikan oleh Sony Pictures Releasing. Ini adalah reboot film Spider-Man kedua dan film keenam belas di Marvel Cinematic Universe.</item>
+        <item>Peter lolos dari planet Morag membawa sebuah bola berharga yang sangat diinginkan oleh musuhnya, Ronan. Untuk menghentikannya, Peter pun membentuk tim superhero berjulukan Guardians of The Galaxy.</item>
+        <item>Dipenjara, Thor yang hebat menemukan dirinya dalam sebuah kontes gladiator yang mematikan melawan Hulk, mantan sekutunya. Thor harus berjuang untuk bertahan hidup dan berpacu melawan waktu
+            untuk mencegah Hela yang sangat kuat menghancurkan rumah dan peradaban Asgardian.</item>
+        <item>The Avengers dan sekutu mereka harus bersedia mengorbankan segalanya dalam upaya untuk mengalahkan Thanos yang kuat sebelum ia berhasil menghancurkan alam semesta.</item>
+        <item>Captain Marvel adalah superhero wanita dari Marvel yang mempunyai banyak kekuatan setara seperti Superman. Superhero yang bernama Carol Danvers ini awalnya
+            merupakan seorang pilot luar angkasa, konon ia mendapatakan kekuatan supernya dari bangsa alien.</item>
+        <item>Melanjutkan Avengers Infinity War, dimana kejadian setelah Thanos berhasil mendapatkan semua infinity stones dan memusnahkan 50% semua mahluk hidup di alam semesta.
+            Akankah para Avengers berhasil mengalahkan Thanos?</item>
+        <item>Bagian Deskripsi Spider Man Far fRom Home</item>
+        <item>Ilmuwan Dr. David Banner terkena radiasi gamma tingkat tinggi yang memicu transformasinya menjadi makhluk raksasa berwarna hijau, The Hulk.</item>
+        <item>Hulk sebenarnya adalah seorang profesor yang bernama Bruce Banner (Edward Norton). Jika ia marah dan emosinya mencapai puncak,
+            maka akan berubah menjadi Hulk dan mempunyai kekuatan yang mengerikan.</item>
+        <item>Barry Allen (Grant Gustin) adalah seorang ilmuwan forensik untuk polisi Central City. Allen adalah orang yang kaku dan sulit bergaul, dikarenakan trauma karena masalah keluarga dimasa lalu.
+            Allen mencoba mencari kebenaran akan masalah keluarganya yang membawanya kepada sebuah particle accelerator. Ketika accelerator tersebut meledak, Allen terkena ledakan dan mengalami koma selama
+            sembilan bulan. Saat bangun, Allen sadar bahwa ia memiliki kekuatan super berupa kecepatan melebihi manusia lainnya. Semakin lama, ia sadar bahwa ada orang lain
+            dengan kekuatan super yang memiliki rencana jahat, Allen kemudian bersumpah menggunakan kelebihan yang ia miliki untuk melindungi Central City sebagai The Flash.</item>
+        <item>Mengisahkan petualangan Sonic saat ia belajar tentang kompleksitas kehidupan di bumi bersama manusia sahabat barunya, Tom Wachowski. Sonic dan Tom bersatu untuk menghentikan si jahat
+            Dr. Robotnik yang ingin menangkap Sonic dan menggunakan kekuatan istimewanya untuk menguasai dunia.</item>
+    </string-array>
+</resources>
