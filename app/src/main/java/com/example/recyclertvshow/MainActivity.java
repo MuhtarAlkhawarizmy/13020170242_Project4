@@ -2,6 +2,7 @@ package com.example.recyclertvshow;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.appcompat.widget.Toolbar;
@@ -24,7 +25,9 @@ public class MainActivity extends AppCompatActivity {
     Button hapus;
     String[] nama, desc, title;
     TypedArray foto;
+    TvShowAdapter tvShowAdapter;
     private Toolbar toolbar;
+    private GridLayoutManager layoutManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,8 +40,11 @@ public class MainActivity extends AppCompatActivity {
         recyclerView=findViewById(R.id.recyclerView);
         hapus=findViewById(R.id.btn_hapus);
 
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        final TvShowAdapter tvShowAdapter=new TvShowAdapter(this, data);
+        layoutManager=new GridLayoutManager(this, 1);
+        recyclerView.setLayoutManager(layoutManager);
+        tvShowAdapter =new TvShowAdapter(this, data);
+        tvShowAdapter.init(layoutManager);
+
         recyclerView.setAdapter(tvShowAdapter);
         getData();
         tvShowAdapter.notifyDataSetChanged();
@@ -78,9 +84,11 @@ public class MainActivity extends AppCompatActivity {
         switch (itemId){
             case R.id.idCardview:
                 getData();
+                layoutManager.setSpanCount(1);
                 break;
             case R.id.idGrid:
                 getData();
+                layoutManager.setSpanCount(2);
                 break;
             case R.id.idAbout:
                 about();
